@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Initialize the product list
         productList = new ArrayList<>();
-        productList.add(new Product("iPhone 16 Pro Max", "Gadgets", 43900, "https://phonetechx.com/wp-content/uploads/2022/09/iPhone-16-Pro-Max.jpg"));
-        productList.add(new Product("Samsung Galaxy S24 FE", "Gadgets", 22900, "https://phonetechx.com/wp-content/uploads/2022/07/Samsung-Galaxy-S24-FE.jpg"));
+        productList.add(new Product("iPhone 16 Pro Max", "Gadgets", 43900, "https://imgur.com/YdEn5lz"));
+        productList.add(new Product("Samsung Galaxy S24 FE", "Gadgets", 22900, "https://imgur.com/S6LLhnQ"));
 
         productAdapter = new ProductAdapter(this, productList);
         recyclerView.setAdapter(productAdapter);
